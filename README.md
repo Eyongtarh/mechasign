@@ -15,15 +15,11 @@ This project demonstrates responsive web design, semantic HTML5, modern CSS3, Gi
 
 ---
 
-## 🌐 Live Demo
-
-👉 **https://eyongtarh.github.io/mechasign/**
+## [🌐Live Demo](https://eyongtarh.github.io/mechasign/)
 
 ---
 
-## 📂 GitHub Repository
-
-👉 **https://github.com/eyongtarh/mechasign**
+## [📂 GitHub Repository](https://github.com/eyongtarh/mechasign)
 
 ---
 
@@ -205,9 +201,7 @@ to open the website in your default browser.
 
 ## Option 3 — GitHub Pages
 
-Visit the deployed website:
-
-**https://eyongtarh.github.io/mechasign/**
+[Visit the deployed website](https://eyongtarh.github.io/mechasign/)
 
 ---
 
@@ -215,9 +209,7 @@ Visit the deployed website:
 
 This project is deployed using **GitHub Pages**.
 
-Live Website:
-
-https://eyongtarh.github.io/mechasign/
+[Live Website](https://eyongtarh.github.io/mechasign/)
 
 Whenever new changes are merged into the **main** branch, GitHub Pages automatically rebuilds and publishes the latest version of the website.
 
