@@ -1,39 +1,343 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mechanics In Design
 
-Welcome,
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
+![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-success?style=for-the-badge&logo=github)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A responsive two-page landing website built with **HTML5** and **CSS3** showcasing:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+- **Modern Furniture**
+- **Professional Vehicle Diagnostics**
 
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This project demonstrates responsive web design, semantic HTML5, modern CSS3, Git version control, GitHub collaboration, and deployment with GitHub Pages.
 
 ---
 
-Happy coding!
+[Live Demo](https://eyongtarh.github.io/mechasign/)
+
+---
+
+[GitHub Repository](https://github.com/eyongtarh/mechasign)
+
+---
+
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Running the Project](#running-the-project)
+- [Deployment](#deployment)
+- [Website Pages](#website-pages)
+- [Navigation](#navigation)
+- [Responsive Design](#responsive-design)
+- [Git Workflow](#git-workflow)
+- [Pull Request Example](#pull-request-example)
+- [Testing](#testing)
+- [Future Improvements](#future-improvements)
+- [Learning Outcomes](#learning-outcomes)
+- [Screenshots](#screenshots)
+- [Author](#author)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+# Project Overview
+
+Mechanics In Design is a responsive website consisting of two modern landing pages.
+
+## Furniture Landing Page
+
+The Furniture page showcases stylish furniture products using a clean hero layout.
+
+Features include:
+
+- Responsive hero section
+- Product image
+- Product description
+- Call-to-action button
+- Responsive layout
+
+---
+
+## Vehicle Diagnostics Landing Page
+
+The Diagnostics page promotes professional vehicle diagnostic services.
+
+Features include:
+
+- Responsive hero section
+- Service image
+- Service description
+- Call-to-action button
+- Responsive layout
+
+---
+
+# Features
+
+- Responsive two-page website
+- Furniture landing page
+- Vehicle diagnostics landing page
+- Responsive navigation bar
+- Hero sections
+- Call-to-action buttons
+- Responsive images
+- Mobile-friendly layout
+- Semantic HTML5
+- Modern CSS3 styling
+- Flexbox layout
+- Clean and maintainable code
+- Git version control
+- GitHub Pages deployment
+
+---
+
+# Project Structure
+
+```text
+mechasign/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   └── images/
+│       ├── car.jpg
+│       └── table.jpg
+│
+├── index.html
+├── diagnostics.html
+├── README.md
+└── .gitignore
+```
+
+---
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
+- Visual Studio Code
+
+---
+
+# Getting Started
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/eyongtarh/mechasign.git
+```
+
+Move into the project directory.
+
+```bash
+cd mechasign
+```
+
+---
+
+# Running the Project
+
+## Option 1 — Live Server (Recommended)
+
+1. Open the project in Visual Studio Code.
+2. Install the **Live Server** extension.
+3. Right-click **index.html**.
+4. Select:
+
+```
+Open with Live Server
+```
+
+The website opens at:
+
+```
+http://127.0.0.1:5500/index.html
+```
+
+---
+
+## Option 2 — Open in Browser
+
+Double-click:
+
+```
+index.html
+```
+
+to open the project in your default browser.
+
+---
+
+## Option 3 — GitHub Pages
+
+Visit the deployed version:
+
+[GitHub Repository](https://github.com/eyongtarh/mechasign)
+
+---
+
+# Deployment
+
+This project is deployed using **GitHub Pages**.
+
+[Live Website](https://eyongtarh.github.io/mechasign/)
+
+Whenever updates are merged into the **main** branch, GitHub Pages automatically rebuilds and publishes the latest version of the site.
+
+---
+
+# Website Pages
+
+## Furniture Page
+
+**File**
+
+```text
+index.html
+```
+
+**Purpose**
+
+- Showcase modern furniture collections.
+- Present featured furniture products.
+- Encourage visitors to browse furniture designs.
+
+---
+
+## Diagnostics Page
+
+**File**
+
+```text
+diagnostics.html
+```
+
+**Purpose**
+
+- Promote professional vehicle diagnostic services.
+- Explain available diagnostic solutions.
+- Encourage customers to schedule a vehicle inspection.
+
+---
+
+# Navigation
+
+The website includes a responsive navigation menu for switching between both landing pages.
+
+| Navigation Link | Destination        |
+| --------------- | ------------------ |
+| Furniture       | `index.html`       |
+| Diagnostics     | `diagnostics.html` |
+
+---
+
+# Responsive Design
+
+The website includes:
+
+- Responsive navigation
+- Flexbox layouts
+- Responsive hero sections
+- Responsive images
+- Mobile-friendly design
+- Modern typography
+- Hover effects
+- Rounded buttons
+- Flexible spacing
+
+---
+
+# Git Workflow
+
+Create a feature branch.
+
+```bash
+git switch -c improve-landing-pages
+```
+
+or
+
+```bash
+git checkout -b improve-landing-pages
+```
+
+---
+
+Check modified files.
+
+```bash
+git status
+```
+
+---
+
+Stage files.
+
+```bash
+git add .
+```
+
+---
+
+Commit changes.
+
+```bash
+git commit -m "Improve furniture and diagnostics landing pages"
+```
+
+---
+
+Push the branch.
+
+```bash
+git push -u origin improve-landing-pages
+```
+
+---
+
+Open GitHub.
+
+Create a Pull Request.
+
+Merge into **main** after approval.
+
+---
+
+# Pull Request Example
+
+## Title
+
+```
+Improve furniture and diagnostics landing pages
+```
+
+## Description
+
+```markdown
+## Summary
+
+- Redesigned both landing pages
+- Added responsive hero sections
+- Added call-to-action buttons
+- Improved navigation
+- Enhanced typography and spacing
+- Improved overall user experience
+
+## Testing
+
+- Opened both pages in browser
+- Verified navigation links
+- Verified images load correctly
+- Checked responsive layout
+```
