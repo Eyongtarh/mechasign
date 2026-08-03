@@ -172,34 +172,7 @@ cd mechasign
 
 # Running the Project
 
-## Option 1 — Live Server (Recommended)
-
-1. Open the project in Visual Studio Code.
-2. Install the **Live Server** extension.
-3. Right-click **index.html**.
-4. Select **Open with Live Server**.
-
-The website opens at:
-
-```
-http://127.0.0.1:5500/index.html
-```
-
----
-
-## Option 2 — Open in Browser
-
-Double-click:
-
-```
-index.html
-```
-
-to open the website in your default browser.
-
----
-
-## Option 3 — GitHub Pages
+## GitHub Pages
 
 [Visit the deployed website](https://eyongtarh.github.io/mechasign/)
 
