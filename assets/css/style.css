@@ -23,6 +23,12 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 /* Header */
 header {
@@ -128,7 +134,6 @@ figure {
 }
 /* Footer */
 footer {
-  margin-top: 60px;
   padding: 25px;
   text-align: center;
   background: var(--dark-color);
