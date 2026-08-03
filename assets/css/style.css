@@ -27,20 +27,23 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* Main Content */
 main {
   flex: 1;
+  display: flex;
 }
 /* Header */
 header {
   background: var(--light-color);
 }
+/* Main Heading */
 h1 {
   text-align: center;
   font-size: 2.5rem;
   padding: 25px;
   font-family: Roboto, Arial, sans-serif;
 }
-/* Headings */
+/* Secondary Heading */
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -57,12 +60,15 @@ nav ul {
   justify-content: center;
   gap: 20px;
 }
+nav li {
+  list-style: none;
+}
 nav a {
   display: inline-block;
   padding: 10px 22px;
   text-decoration: none;
-  color: var(--light-color);
   font-weight: bold;
+  color: var(--light-color);
   border: 2px solid var(--light-color);
   border-radius: 30px;
   transition: var(--transition);
@@ -71,21 +77,24 @@ nav a:hover {
   background: var(--accent-color);
   border-color: var(--accent-color);
 }
-/* Active page */
+/* Active Navigation Link */
 nav a[aria-current="page"] {
   background: var(--accent-color);
   border-color: var(--accent-color);
 }
 /* Hero Section */
 .hero {
+  flex: 1;
+  width: 100%;
   max-width: var(--max-width);
-  margin: 60px auto;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 60px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 50px;
 }
+/* Hero Text */
 .hero-text {
   flex: 1;
 }
@@ -134,34 +143,42 @@ figure {
 }
 /* Footer */
 footer {
+  margin-top: auto;
   padding: 25px;
-  text-align: center;
   background: var(--dark-color);
   color: var(--light-color);
+  text-align: center;
   font-size: 0.95rem;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
+  /* Main Heading */
   h1 {
     font-size: 2rem;
   }
+  /* Secondary Heading */
   h2 {
     font-size: 1.7rem;
   }
+  /* Navigation */
   nav ul {
     flex-direction: column;
     align-items: center;
     gap: 12px;
   }
+  /* Hero Section */
   .hero {
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin: 40px auto;
+    padding: 40px 20px;
     gap: 30px;
   }
+  /* Hero Image */
   .hero img {
     max-width: 100%;
   }
+  /* Button */
   .button {
     width: 100%;
     max-width: 250px;

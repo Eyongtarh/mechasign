@@ -1,29 +1,33 @@
 # Mechanics In Design
 
-![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
-![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-success?style=for-the-badge&logo=github)
+![HTML5](https://img.shields.io/badge/HTML5-HTML5-orange?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-CSS3-blue?style=for-the-badge&logo=css3)
+![Git](https://img.shields.io/badge/Git-Version%20Control-red?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-success?style=for-the-badge&logo=github)
 
 A responsive two-page landing website built with **HTML5** and **CSS3** showcasing:
 
-- **Modern Furniture**
-- **Professional Vehicle Diagnostics**
+- 🪑 Modern Furniture
+- 🚗 Professional Vehicle Diagnostics
 
 This project demonstrates responsive web design, semantic HTML5, modern CSS3, Git version control, GitHub collaboration, and deployment with GitHub Pages.
 
 ---
 
-[Live Demo](https://eyongtarh.github.io/mechasign/)
+## 🌐 Live Demo
+
+👉 **https://eyongtarh.github.io/mechasign/**
 
 ---
 
-[GitHub Repository](https://github.com/eyongtarh/mechasign)
+## 📂 GitHub Repository
+
+👉 **https://github.com/eyongtarh/mechasign**
 
 ---
 
-# Table of Contents
+# 📖 Table of Contents
 
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -36,7 +40,7 @@ This project demonstrates responsive web design, semantic HTML5, modern CSS3, Gi
 - [Navigation](#navigation)
 - [Responsive Design](#responsive-design)
 - [Git Workflow](#git-workflow)
-- [Pull Request Example](#pull-request-example)
+- [Pull Request Workflow](#pull-request-workflow)
 - [Testing](#testing)
 - [Future Improvements](#future-improvements)
 - [Learning Outcomes](#learning-outcomes)
@@ -49,51 +53,75 @@ This project demonstrates responsive web design, semantic HTML5, modern CSS3, Gi
 
 # Project Overview
 
-Mechanics In Design is a responsive website consisting of two modern landing pages.
+**Mechanics In Design** is a responsive multi-page website consisting of two modern landing pages.
 
-## Furniture Landing Page
+The project was built to practice:
 
-The Furniture page showcases stylish furniture products using a clean hero layout.
-
-Features include:
-
-- Responsive hero section
-- Product image
-- Product description
-- Call-to-action button
-- Responsive layout
+- Semantic HTML5
+- CSS3 styling
+- Responsive web design
+- Git branching
+- GitHub Pull Requests
+- GitHub Pages deployment
 
 ---
 
-## Vehicle Diagnostics Landing Page
+## 🪑 Furniture Landing Page
+
+**File**
+
+```text
+index.html
+```
+
+The Furniture page showcases stylish furniture products using a clean hero layout.
+
+### Features
+
+- Responsive hero section
+- Modern typography
+- Furniture image
+- Call-to-action button
+- Responsive navigation
+- Mobile-friendly layout
+
+---
+
+## 🚗 Vehicle Diagnostics Landing Page
+
+**File**
+
+```text
+diagnostics.html
+```
 
 The Diagnostics page promotes professional vehicle diagnostic services.
 
-Features include:
+### Features
 
 - Responsive hero section
-- Service image
+- Vehicle image
 - Service description
 - Call-to-action button
-- Responsive layout
+- Responsive navigation
+- Mobile-friendly layout
 
 ---
 
 # Features
 
 - Responsive two-page website
+- Modern navigation bar
 - Furniture landing page
 - Vehicle diagnostics landing page
-- Responsive navigation bar
 - Hero sections
 - Call-to-action buttons
 - Responsive images
-- Mobile-friendly layout
+- Responsive layout using Flexbox
 - Semantic HTML5
 - Modern CSS3 styling
-- Flexbox layout
-- Clean and maintainable code
-- Git version control
+- Accessible navigation
+- Footer
 - GitHub Pages deployment
 
 ---
@@ -138,7 +166,7 @@ mechasign/
 git clone https://github.com/eyongtarh/mechasign.git
 ```
 
-Move into the project directory.
+Move into the project folder.
 
 ```bash
 cd mechasign
@@ -153,11 +181,7 @@ cd mechasign
 1. Open the project in Visual Studio Code.
 2. Install the **Live Server** extension.
 3. Right-click **index.html**.
-4. Select:
-
-```
-Open with Live Server
-```
+4. Select **Open with Live Server**.
 
 The website opens at:
 
@@ -175,15 +199,15 @@ Double-click:
 index.html
 ```
 
-to open the project in your default browser.
+to open the website in your default browser.
 
 ---
 
 ## Option 3 — GitHub Pages
 
-Visit the deployed version:
+Visit the deployed website:
 
-[GitHub Repository](https://github.com/eyongtarh/mechasign)
+**https://eyongtarh.github.io/mechasign/**
 
 ---
 
@@ -191,54 +215,31 @@ Visit the deployed version:
 
 This project is deployed using **GitHub Pages**.
 
-[Live Website](https://eyongtarh.github.io/mechasign/)
+Live Website:
 
-Whenever updates are merged into the **main** branch, GitHub Pages automatically rebuilds and publishes the latest version of the site.
+https://eyongtarh.github.io/mechasign/
+
+Whenever new changes are merged into the **main** branch, GitHub Pages automatically rebuilds and publishes the latest version of the website.
 
 ---
 
 # Website Pages
 
-## Furniture Page
-
-**File**
-
-```text
-index.html
-```
-
-**Purpose**
-
-- Showcase modern furniture collections.
-- Present featured furniture products.
-- Encourage visitors to browse furniture designs.
-
----
-
-## Diagnostics Page
-
-**File**
-
-```text
-diagnostics.html
-```
-
-**Purpose**
-
-- Promote professional vehicle diagnostic services.
-- Explain available diagnostic solutions.
-- Encourage customers to schedule a vehicle inspection.
+| Page        | File               | Description                      |
+| ----------- | ------------------ | -------------------------------- |
+| Furniture   | `index.html`       | Modern furniture landing page    |
+| Diagnostics | `diagnostics.html` | Vehicle diagnostics landing page |
 
 ---
 
 # Navigation
 
-The website includes a responsive navigation menu for switching between both landing pages.
+The website includes a responsive navigation bar allowing users to switch between both pages.
 
-| Navigation Link | Destination        |
-| --------------- | ------------------ |
-| Furniture       | `index.html`       |
-| Diagnostics     | `diagnostics.html` |
+| Navigation  | Destination        |
+| ----------- | ------------------ |
+| Furniture   | `index.html`       |
+| Diagnostics | `diagnostics.html` |
 
 ---
 
@@ -248,13 +249,13 @@ The website includes:
 
 - Responsive navigation
 - Flexbox layouts
-- Responsive hero sections
+- Hero sections
 - Responsive images
-- Mobile-friendly design
+- Hover animations
 - Modern typography
-- Hover effects
-- Rounded buttons
-- Flexible spacing
+- Mobile-friendly layout
+- Responsive buttons
+- Footer that stays at the bottom of the page
 
 ---
 
@@ -272,31 +273,23 @@ or
 git checkout -b improve-landing-pages
 ```
 
----
-
-Check modified files.
+Check your changes.
 
 ```bash
 git status
 ```
 
----
-
-Stage files.
+Stage your files.
 
 ```bash
 git add .
 ```
 
----
-
-Commit changes.
+Commit your changes.
 
 ```bash
 git commit -m "Improve furniture and diagnostics landing pages"
 ```
-
----
 
 Push the branch.
 
@@ -304,25 +297,21 @@ Push the branch.
 git push -u origin improve-landing-pages
 ```
 
----
-
-Open GitHub.
-
-Create a Pull Request.
+Open GitHub and create a Pull Request.
 
 Merge into **main** after approval.
 
 ---
 
-# Pull Request Example
+# Pull Request Workflow
 
-## Title
+## Pull Request Title
 
 ```
 Improve furniture and diagnostics landing pages
 ```
 
-## Description
+## Pull Request Description
 
 ```markdown
 ## Summary
@@ -332,12 +321,16 @@ Improve furniture and diagnostics landing pages
 - Added call-to-action buttons
 - Improved navigation
 - Enhanced typography and spacing
-- Improved overall user experience
+- Added semantic HTML5 elements
+- Improved accessibility
+- Added responsive footer
 
 ## Testing
 
 - Opened both pages in browser
 - Verified navigation links
+- Verified responsive layout
 - Verified images load correctly
-- Checked responsive layout
+- Tested button hover effects
+- Tested mobile responsiveness
 ```
